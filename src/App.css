@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.code_container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.left{
+  width: 50%;
+  height:100vh;
+  padding: 0 5px;
+}
+
+.right{
+  width: 50%;
+  height:100vh;
+  padding: 5px;
+}
+.button_container{
+  height: 50px;
+  width: 100%;
+}
+.code_area{
+  height: calc(100% - 50px);
+  width: 100%;
+  resize: none;
+}
+.output{
+  height: calc(100% - 500px);
+  width: 100%;
+  resize: none;
+}
+.video{
+  width: 100%;
+  height: 500px;
+  background: black;
+}
